@@ -7,7 +7,7 @@
       "uuidString" : "3E0BB55F-42F6-410E-AC1E-89464EA7931A"
     }
   ],
-  "creatorBuild" : "34214",
+  "creatorBuild" : "34264",
   "files" : {
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -501,7 +501,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 654383668.93075097,
-    "displayValue" : "hermit",
+    "displayValue" : "Kimball_hermit",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-slime",
     "iconImageWasSetByUser" : 0
@@ -1651,6 +1651,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
