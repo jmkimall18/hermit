@@ -459,6 +459,76 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #A6416E;
+  display: grid;
+  grid-template-areas: ". footer .";
+  grid-template-columns: 10px auto 10px;
+  padding: 45px 0 40px;
+  text-align: center;
+}
+footer > div {
+  grid-area: footer;
+}
+@media (min-width: 768px) {
+  footer > div {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  footer > div {
+    font-size: 64px;
+  }
+}
+@media (min-width: 1200px) {
+  footer > div {
+    font-size: 64px;
+  }
+}
+footer > div h1 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #2E1845;
+}
+@media (min-width: 768px) {
+  footer > div h1 {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  footer > div h1 {
+    font-size: 64px;
+  }
+}
+@media (min-width: 1200px) {
+  footer > div h1 {
+    font-size: 64px;
+  }
+}
+footer > div h1 span {
+  color: #F9D5AE;
+}
+footer > div ul {
+  display: flex;
+  justify-content: center;
+}
+footer > div ul li {
+  margin: 0 10px;
+}
+footer > div ul li a:link,
+footer > div ul li a:visited {
+  color: #2E1845;
+  font-size: 1.875rem;
+  transition: 0.25s;
+}
+footer > div ul li a:link:hover, footer > div ul li a:link:active,
+footer > div ul li a:visited:hover,
+footer > div ul li a:visited:active {
+  color: #fff;
+}
+
 /* =============
     Intro
 ============= */
